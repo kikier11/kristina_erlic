@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+padding: 0;}
+
+<*===== Navigacija ====*>
+.navbar-brand{
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+     font-size: 100px;
+}
+
+.container {
+  
+  position: relative;
+  text-align: center;
+  color: white;
+    text-align: left;
+  font-family: "Inter", sans-serif;
+    font-weight: 600;
+  font-style: normal;
+   
+}
+
+.container1 {
+  
+  position: relative;
+  text-align: center;
+  color: white;
+    text-align: left;
+  font-family: "Inter", sans-serif;
+    font-weight: 600;
+  font-style: normal;
+   
+}
+
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+    text-align: center;
+   width:750px ;
+    height: 200px;
+ 
+    border-radius: 10px;
+    column-count: 3;
+      background-color: rgba(0,0,0,0.372);
+   padding-top: 23px;
+    
+    
+}
+
+.brp{
+    padding-top: 23px;
+    margin-bottom: -5px;
+    font-size: 22px;
+    
+}
+
+.brtext1{
+    border-right: 2px solid rgb(173,173,210);
+    border-left: 2px solid rgb(173,173,210);
+    font-size: 25px;
+}
+
+.brtext{
+ font-size: 25px;   
+}
+
+@media only screen and (max-width: 800px){
+    .bottom-right{
+        display: none;
+    }
+}
+<*===== Kraj Navigacije ====*>
+.prazan{
+    height: 80px;
+    width: 100%;
+}
+
+.tunbo{
+    position: absolute;
+    left:480px;
+    bottom:70px;
+  
+}
+@media only screen and (max-width: 1400px){
+    .tunbo{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .bottom-left{
+        display: none;
+    }
+}
+
+.container3{
+    padding-top: 70px;
+}
+
+.gallery{
+    margin: 15px 35px;
+    text-align:center;
+
+}
+
+.gallery img{
+    padding: 15px;
+    filter:grayscale(100%);
+    transition: 1s;
+    
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+
+.container6{
+    padding-top: 70px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+#myBtn:hover {
+  background-color: red;
+}
